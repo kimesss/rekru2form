@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<form name="form">
+    <label> tytuł ksiązki
+        <input id="tytuł" type="text" name="tytuł" placeholder="tittle">
+    </label>
+    <label> autor
+        <input id="author" type="text" name="author"  placeholder="author">
+    </label>
+    <label> priorytet
+        <input id="priorytet" type="number" min="1" max="5"  name="priorytet" placeholder="number 1-5">
+    </label>
+    <label for="books">Choose:</label>
+    <select id="books" name="select">
+        <option selected value="horror">horror</option>
+        <option value="komedia" >komedia</option>
+        <option value="dramat">dramat</option>
+    </select>
+    <input id="btn" type="submit" value="Submit">
+</form>
+<span id="span"></span>
+<div ></div>
+<table id="books-container">
+<!--    <tr><td>autor</td> <td>tyt</td> <td>priorytet</td> <td>kategoria</td></tr>-->
+</table>
+<script src="index.js"></script>
+</body>
+</html>
